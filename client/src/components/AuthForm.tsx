@@ -55,7 +55,7 @@ export function AuthForm({ onClose }: { onClose: () => void }) {
           ref={videoRef}
           playsInline
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-          src="/Hyperspace Jump Login Background.mp4"
+          src="https://res.cloudinary.com/smomme5z/video/upload/v1792027873/Hyperspace_Jump_Login_Background.mp4"
           onEnded={handleVideoEnd}
         />
       </div>
@@ -64,7 +64,7 @@ export function AuthForm({ onClose }: { onClose: () => void }) {
         <div style={{ background: '#111', padding: 24, borderRadius: 8, minWidth: 300, position: 'relative', overflow: 'hidden' }}>
           <video autoPlay loop muted playsInline
             style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.12, zIndex: 0, pointerEvents: 'none' }}
-            src="/Solar System Background VIdeo.mp4"
+            src="https://res.cloudinary.com/smomme5z/video/upload/v1792027859/Solar_System_Background_VIdeo.mp4"
           />
           <div style={{ position: 'relative', zIndex: 1 }}>
             <h2 style={{ marginTop: 0 }}>{mode === 'login' ? 'Sign In' : 'Register'}</h2>

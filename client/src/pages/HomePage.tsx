@@ -60,7 +60,7 @@ export function HomePage() {
   const bgVideo = (
     <video autoPlay loop muted playsInline
       style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.18, zIndex: 0, pointerEvents: 'none' }}
-      src="/Solar System Background VIdeo.mp4"
+      src="https://res.cloudinary.com/smomme5z/video/upload/v1792027859/Solar_System_Background_VIdeo.mp4"
     />
   );
 

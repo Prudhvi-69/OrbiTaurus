@@ -65,7 +65,7 @@ export function SimulatorPage() {
     <div style={{ position: 'fixed', inset: 0, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', zIndex: 999 }}>
       <video autoPlay loop muted playsInline
         style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.5 }}
-        src="/Insterstellar Blackhole scene.mp4"
+        src="https://res.cloudinary.com/smomme5z/video/upload/v1792027910/Insterstellar_Blackhole_scene.mp4"
       />
       <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
         <h1 style={{ color: '#fff', fontSize: 28, margin: '0 0 32px', letterSpacing: 4, textTransform: 'uppercase' }}>
