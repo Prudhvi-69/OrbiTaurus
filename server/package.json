@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
-    "build": "tsc && node -r ts-node/register src/db/migrate.ts && node -r ts-node/register src/db/seed.ts",
+    "build": "tsc && node dist/db/migrate.js && node dist/db/seed.js",
     "start": "node dist/index.js",
     "db:migrate": "node -r ts-node/register src/db/migrate.ts",
     "db:seed": "node -r ts-node/register src/db/seed.ts",
