@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+
+# Environment files - NEVER commit these
+.env
+**/.env
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Large media files - host on CDN instead
+*.mp4
+*.mov
+*.avi
+
+# OS
+.DS_Store
+Thumbs.db
